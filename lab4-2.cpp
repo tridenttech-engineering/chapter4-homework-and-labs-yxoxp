@@ -4,7 +4,15 @@
 using namespace std;
 int main()
 {
+ const double COMM_RATE = 0.1;
+  double sales = 0.0;
+  double commission = 0.0;
 
+  cout << "sales amount: ";
+  cin>> sales;
+  
+  commission = sales * COMM_RATE;
+  cout << "Commission; $"<< commission << end1;
 
   return 0;
 } //end of main function
