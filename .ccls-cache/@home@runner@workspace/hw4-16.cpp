@@ -19,7 +19,6 @@
     std::cout << "Store 2 sales: ";
     std::cin >> store2;
 
-
     store1Int = static_cast<int>(store1 * increase * 100 + 0.5);
     store2Int = static_cast<int>(store2 * increase * 100 + 0.5);
 
